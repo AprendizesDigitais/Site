@@ -1,0 +1,45 @@
+.linha2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid lightgrey; */
+    background-color: #268DD4;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.linha2 article{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.linha2 section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha2 h2 {
+    font-size: 300%;
+    color: rgb(248, 248, 248);
+    margin-bottom: 2%;
+}
+
+.linha2 blockquote{
+    font-size: 300%;
+    color: rgb(248, 248, 248);
+    margin-bottom: 1%;
+}
+
+
+.linha2 p{
+    font-size: 150%;
+    color: rgb(248, 248, 248);
+}

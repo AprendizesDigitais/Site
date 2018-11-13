@@ -1,0 +1,77 @@
+.linha3{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tec{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linha3 h2{
+    margin-top: 20px;
+    font-size: 250%;
+    color: rgb(67, 76, 85);
+}
+
+.tec h2{
+    font-size: 300%;
+}
+
+.tec p{
+    font-size: 150%;
+    color: rgb(92, 97, 102);
+    text-align: center;
+}
+
+.linha3 section{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hab{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hab h2, .brasil h2{
+    margin-bottom: 2%;
+}
+
+.hab li{
+    font-size: 150%;
+    color: rgb(108, 116, 123);
+    text-align: center;
+}
+
+.brasil{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.brasil div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

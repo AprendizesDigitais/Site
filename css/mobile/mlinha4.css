@@ -1,0 +1,78 @@
+@media (max-width: 767px){
+    .linha4{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #268DD4;
+    }
+    
+    .tec{
+        width: 90%;
+        height: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .linha4 h2{  
+        font-size: 8.5vw;
+        color:white;
+    }
+
+    
+    .tec p{
+        font-size: 150%;
+        color:white;
+        text-align: justify;
+    }
+    
+    .linha4 section{
+        width: 100%;
+        height: 66%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .hab{
+        width: 100%;
+        height: 35%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .hab h2, .brasil h2{
+        margin-bottom: 2%;
+    }
+    
+    .hab li{
+        font-size: 150%;
+        color:white;
+        text-align: center;
+    }
+    
+    .brasil{
+        width: 100%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .brasil div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    }

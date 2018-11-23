@@ -21,18 +21,34 @@
     height: auto;
 }
 
-.icon{
-    width: 50%;
-}
-
-.cTexto{
-    width: 50%;
-}
-
 .fot a{
     font-size: 130%;
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+.fot a div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fot a img{
+    width: 50%;
+}
+
+.fot a div img{
+    width: 50%;
+}
+
+#gmail{
+    width: 25%;
+}
+
+.fot a div h2{
+    font-size: 1vw;
+    color: white;
 }
 

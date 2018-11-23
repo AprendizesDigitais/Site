@@ -1,0 +1,40 @@
+.linha6{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #268DD4;
+    
+}
+
+.linha6 h2{
+    height: 10%;
+    font-size: 4vw;
+    color: white;
+    align-items: center;
+}
+
+.linha6 article{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map{
+    width: 25vw;
+    height: 25vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.linha6 article p{
+    font-size: 2vw;
+    color: white;
+}

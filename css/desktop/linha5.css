@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #268DD4;
 }
 
 .linha5 article{
@@ -26,10 +25,10 @@
 .linha5 h2{
     margin-top: 20px;
     font-size: 400%;
-    color: white;
+    color: #434C55;
 }
 
 .linha5 p{
     font-size: 150%;
-    color: white;
+    color: #434C55;
 }

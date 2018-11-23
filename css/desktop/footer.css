@@ -22,29 +22,28 @@
 }
 
 .fot a{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 130%;
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-.fot a div{
+.fot ul a div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.fot a img{
-    width: 50%;
-}
-
-.fot a div img{
-    width: 50%;
-}
-
-#gmail{
-    width: 25%;
+.icon{
+    width: 4vw;
+    height: auto;
 }
 
 .fot a div h2{

@@ -1,14 +1,12 @@
 @media (min-width: 768px){
 .linha2{
     width: 100%;
-    height: 50vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* outline: 1px solid lightgrey; */
     background-color: #268DD4;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 3% 0 3% 0;
 }
 
 .linha2 article{
@@ -16,33 +14,25 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.linha2 section{
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .linha2 h2 {
-    font-size: 300%;
+    font-size: 4vw;
     color: rgb(248, 248, 248);
-    margin-bottom: 2%;
 }
 
 .linha2 blockquote{
-    font-size: 300%;
+    font-size: 3.5vw;
     color: rgb(248, 248, 248);
-    margin-bottom: 1%;
+    padding: 3% 0 3% 0;
 }
 
-
 .linha2 p{
-    font-size: 150%;
+    font-size: 3vw;
     color: rgb(248, 248, 248);
+    text-align: justify;
 }
 
 }

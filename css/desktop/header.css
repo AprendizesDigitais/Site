@@ -27,7 +27,7 @@
     display: none;
 }
 
-.logo{
+.logo1{
     width: 20%;
     height: 100%;
     display: flex;
@@ -35,7 +35,7 @@
     align-items: center;
 }
 
-.logo img{
+.logo1 img{
     width: 60%;
 }
 

@@ -1,78 +1,62 @@
 @media (max-width: 767px){
     .linha4{
         width: 100%;
-        height: 100vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         background-color: #268DD4;
-    }
-    
-    .tec{
-        width: 90%;
-        height: 33%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .linha4 h2{  
-        font-size: 8.5vw;
-        color:white;
+        padding: 5% 0 5% 0;
     }
 
-    
-    .tec p{
-        font-size: 150%;
-        color:white;
+    .linha4 h2{
+        font-size: 8vw;
+        color: white;
+    }
+
+    .linha4 p{
+        width: 90%;
+        font-size: 6vw;
+        color: white;
         text-align: justify;
+        padding: 5% 0 5% 0;
     }
-    
+
     .linha4 section{
-        width: 100%;
-        height: 66%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-items: center;
     }
-    
+
     .hab{
-        width: 100%;
-        height: 35%;
-        text-align: center;
+        width: 90%;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
     }
-    
-    .hab h2, .brasil h2{
-        margin-bottom: 2%;
+
+    .hab ul{
+        padding: 5% 0 5% 7%;
     }
-    
     .hab li{
-        font-size: 150%;
-        color:white;
-        text-align: center;
+        font-size: 6vw;
+        color: white;
     }
-    
+
     .brasil{
-        width: 100%;
-        height: 65%;
+        width: 90%;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
     }
-    
+
     .brasil div{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding-top: 5%;
+        width: 90vw;
+        height: 50vw;
     }
-    
-    }
+}

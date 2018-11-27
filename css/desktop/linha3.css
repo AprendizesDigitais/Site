@@ -9,12 +9,11 @@
     padding: 3% 0 3% 0;
 }
 
-.linha3 h1 {
+.linha3 h2 {
     width: 100%;
     height: 10%;
     font-size: 4vw;
     color: #434C55;
-    margin-bottom: 2%;
     text-align: center;
 }
 
@@ -23,18 +22,20 @@
     height: 90%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 3% 0 3% 0;
+    align-items: top;
+    padding: 3% 0 0 0;
 }
 
 .linha3 p{
     width: 50%;
     padding: 0px 5% 0px 5%;
-    font-size: 3vw;
+    font-size: 2vw;
     color: #434C55;
     text-align: justify;
 }
 
+
+/*  */
 .linha3 ul{
     width: 50%;
     height: 100%;
@@ -50,7 +51,7 @@
     height: 25%;
     display: flex;
     align-items: center;
-    padding: 1% 0 1% 0;
+    padding: 3% 0 3% 0;
 }
 
 .linha3 li img{
@@ -59,7 +60,7 @@
 }
 
 .linha3 li h2{
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: #434C55;
     margin-left: 2%;
 }

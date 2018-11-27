@@ -3,28 +3,19 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     padding: 3% 0 3% 0;
 }
 
-.linha5 article{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .linha5 h2{
-    font-size: 400%;
     color: #434C55;
     padding: 0 0 3% 0;
 }
 
 .linha5 p{
-    font-size: 3vw;
+    width: 90%;
     color: #434C55;
     text-align: justify;
 }

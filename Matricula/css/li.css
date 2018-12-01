@@ -1,0 +1,22 @@
+@media (min-width: 768px){
+
+    .l1 h2{
+        font-size: 3vw;
+    }
+
+    .lista{
+        width: 50%;
+    }
+
+    .l1 p{
+        font-size: 2vw;
+    }
+
+    .l1 .bntL1{
+        width: 17vw;
+        height: 5vw;
+        font-size: 1.5vw;
+        margin: 3% 0 3% 0;
+    }
+
+}

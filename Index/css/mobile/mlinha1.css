@@ -1,7 +1,7 @@
-@media (max-width: 767px){
+@media (max-width: 769px){
     .linha1{
-        width: 100%;
-        height: 40vh;
+        width: 100vw;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -9,13 +9,10 @@
     }
     
     .linha1 h2{
-        font-size: 8.5vw;
-        color: rgb(67, 76, 85);
-        margin-top: 5%;
-    }
-    
-    .matriculi-se2{
-        display: none;
+        font-size: 250%;
+        color: #6e706a;
+        font-weight: 600;
+        text-align: center;
     }
     
     .linha1 div{
@@ -27,8 +24,8 @@
     }
     
     .linha1 img{
-    width: auto;
-    height: 100%;
+        width: auto;
+        height: 50vw;
     }
 
 }

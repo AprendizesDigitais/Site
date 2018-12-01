@@ -1,4 +1,4 @@
-@media (min-width: 768px){
+@media (min-width: 770px){
 .linha5{
     width: 100%;
     height: auto;
@@ -10,11 +10,13 @@
 }
 
 .linha5 h2{
+    font-size: 4vw;
     color: #434C55;
     padding: 0 0 3% 0;
 }
 
 .linha5 p{
+    font-size: 2vw;
     width: 90%;
     color: #434C55;
     text-align: justify;

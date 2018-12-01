@@ -1,4 +1,4 @@
-@media (min-width: 768px){
+@media (min-width: 770px){
 .fot{
     width: 100%;
     height: auto;
@@ -18,7 +18,7 @@
 }
 
 .fot .logo2{
-    width: 10%;
+    width: 50%;
     height: auto;
 }
 

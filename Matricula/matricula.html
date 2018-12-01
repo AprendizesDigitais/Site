@@ -1,40 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Aprendizes Digitais</title>
+
+    <link rel="stylesheet" href="../Index/css/mobile/mheader.css">
+    <link rel="stylesheet" href="./css/mlinha1.css">
+    <link rel="stylesheet" href="../Index/css/mobile/mfooter.css">
+
+    <link rel="stylesheet" href="../Index/css/desktop/header.css">
+    <link rel="stylesheet" href="./css/li.css">
+    <link rel="stylesheet" href="../Index/css/desktop/footer.css">
+
 </head>
+
 <body>
-    <header class="header">
-        <h1>Aprendizes Digitais</h1>
-        <a class="logo" href="#quemsomos">
-            <img src="./img/Logo sem fundo.png" alt="Logo Aprendizes Digitais">
-        </a>
-        <nav>
-            <a class="bnt" href="index.html#quemsomos">
-                <h2>Quem Somos</h2>
+    <header class="head">
+        <h1 id="nome">Aprendizes Digitais</h1>
+        <div>
+            <a class="logo1" href="../index.html">
+                <img src="../Index/img/Logo sem fundo.png" alt="Logo Aprendizes Digitais">
             </a>
-            <a class="bnt" href="">
+            <a class="matriculi-se1" href="./matricula.html">MATRICULE-SE</a>
+        </div>
+        <nav>
+            <a class="bnt" href="./Instituição/instituicao.html#empresas">
                 <h2>Para Empresas</h2>
             </a>
-            <a class="bnt" href="">
+            <a class="bnt" href="./Instituição/instituicao.html#instituicoes">
                 <h2>Para Instituição</h2>
-            </a>    
-            <a class="bnt" href="">
+            </a>
+            <a class="bnt" href="./Instituição/instituicao.html#escolas">
                 <h2>Para Escolas</h2>
             </a>
-            <a class="bnt" href="#contato">
+            <a class="bnt" id="bntContato" href="#contato">
                 <h2>Contato</h2>
             </a>
-            <a class="matriculi-se1" href="">MATRICULE-SE</a>
         </nav>
     </header>
 
-    <section class="linha1">
-        <h2>Escolha o seu plano!</h2>
-
+    <section class="l1">
+        <h2>Matricule-se e comece a estudar</h2>
+        <section class="lista">
+            <article>
+                <img src="./img/html.png">
+                <p>HTML 5</p>
+            </article>
+            <article>
+                <img src="./img/css.png">
+                <p>CSS 3</p>
+            </article>
+            <article>
+                <img src="./img/js.png">
+                <p>JavaScript</p>
+            </article>
+            <article>
+                <img src="./img/react.png">
+                <p>React</p>
+            </article>
+            <a class="bntL1" href="https://docs.google.com/forms/d/1V145lCit-ED5T334WK56aLCpROHlZ3Uy6pOn7Kss7AY/edit"
+                target="_blank">INSCREVA-SE</a>
+        </section>
+        <h2>Assista a uma aula de demonstração</h2>
+        <section class="lista">
+            <p id="queroParticipar">Quer participar de uma primeira aula demonstração
+                totalmente gratuita? </p>
+            <a class="bntL1" href="https://docs.google.com/forms/d/1b50Gdvk2xgujmgH-ekuhJK-kPZjWMJl26w7Pctp9_dw/edit"
+                target="_blank">
+                AULA TESTE
+            </a>
+        </section>
     </section>
+
+    <footer id="contato" class="fot">
+        <ul>
+            <a href="../index.html">
+                <img class="logo2" src="../Index/img/Logo branco sem fundo.png" alt="Logo Aprendizes Digitais">
+            </a>
+            <a href="https://www.instagram.com/aprendizesdigitais/" target="_blank">
+                <div>
+                    <img class="icon" src="../Index/img/insta.png" alt="icone intagram">
+                    <h2>@aprendizesdigitais</h2>
+                </div>
+            </a>
+            <a href="https://www.facebook.com/aprendizesdigitais" target="_blank">
+                <div>
+                    <img class="icon" src="../Index/img/face.png" alt="icone facebook">
+                    <h2>Aprendizes Digitais</h2>
+                </div>
+            </a>
+            <a href="mailto:aprendizesdigitais@gmail.com?Subject=Contato" target="_top">
+                <div>
+                    <img class="icon" id="gmail" src="../Index/img/gmail.png" alt="icone gmail">
+                    <h2>aprendizesdigitais@gmail.com</h2>
+                </div>
+            </a>
+            <a href="https://wa.me/551155999205" target="_top">
+                <div>
+                    <img class="icon" src="../Index/img/whats.png" alt="icone whatsapp">
+                    <h2>(11) 5599-9205</h2>
+                </div>
+            </a>
+        </ul>
+    </footer>
 </body>
+
 </html>

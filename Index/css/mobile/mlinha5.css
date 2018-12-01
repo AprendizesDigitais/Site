@@ -1,26 +1,26 @@
-@media (max-width: 767px){
+@media (max-width: 769px){
+
     .linha5{
-        width: 100%;
+        width: 100vw;
         height: auto;
-        padding: 5% 0 5% 0;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
-
     
-    .linha5 h2{
-        font-size: 8.5vw;
+    .linha5 h2 {
+        font-size: 8vw;
         color: #434C55;
-        padding-bottom: 5%;
+        margin-top: 2%;
     }
     
     .linha5 p{
         width: 90%;
-        font-size: 6vw;
+        font-size: 5vw;
         color: #434C55;
         text-align: justify;
+        margin: 4% 0 4% 0;
     }
     
-    }
+}

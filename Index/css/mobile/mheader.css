@@ -42,7 +42,7 @@
     }
 
     .logo1{
-        width: 30%;
+        width: 40%;
         height: auto;
         display: flex;
         align-content: center;
@@ -55,8 +55,8 @@
     }
 
     .head .matriculi-se1{
-        width: 25vw;
-        height: 9vw;
+        width: 30vw;
+        height: 10vw;
         background-color: #65bdaf;
         border-radius: 1vw;
         text-decoration: none;

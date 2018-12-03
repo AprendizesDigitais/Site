@@ -24,6 +24,10 @@
 
     .saibaMais{
         margin-top: 2% !important;
+        width: 20vw !important;
+        height: 5vw !important;
+        font-size: 2.5vw !important;
+        border-radius: 0.5vw !important;
     }
 
 }

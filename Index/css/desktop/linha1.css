@@ -13,6 +13,11 @@
     color: rgb(67, 76, 85);
 }
 
+#sub{
+    font-size: 3.5vw;
+    font-weight: 200;
+}
+
 .matriculi-se2{
     width: 15vw;
     height: 5vw;

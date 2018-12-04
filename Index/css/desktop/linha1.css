@@ -9,12 +9,13 @@
 }
 
 .linha1 h2{
-    font-size: 4vw;
+    font-size: 3vw;
     color: rgb(67, 76, 85);
+    font-weight: 500;
 }
 
 #sub{
-    font-size: 3.5vw;
+    font-size: 2vw;
     font-weight: 200;
 }
 
